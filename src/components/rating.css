@@ -8,16 +8,20 @@
   align-items: center;
 }
 
-.title {
+.rating-title {
   color: white;
   margin: 2rem 0 1rem 0;
+  font-size: 1.75rem;
+  font-weight: 500;
+  text-align: left;
 }
 
-.text {
+.rating-text {
   color: hsl(217, 12%, 63%);
   margin-bottom: 1.25rem;
   font-size: 0.9rem;
   line-height: 1.4rem;
+  text-align: left;
 }
 
 .rating {
@@ -30,8 +34,8 @@
 
 .rating-container {
   text-align: center;
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   background-color: hsl(211, 19%, 24%);
   display: flex;
@@ -59,10 +63,11 @@
   border: 0;
   outline: 0;
   width: 100%;
-  padding: 12px 0;
+  padding: 14px 0;
   border-radius: 25px;
   letter-spacing: 1.5px;
   font-family: inherit;
+  font-size: 0.95rem;
   font-weight: 700;
 }
 

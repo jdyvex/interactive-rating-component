@@ -23,8 +23,8 @@ const Rating = ({ rating, setRating, setShowThankYouPage }) => {
       <div className="star-img-container">
         <img src={starImg} alt="" />
       </div>
-      <h2 className="title">How did we do?</h2>
-      <p className="text">
+      <h2 className="rating-title">How did we do?</h2>
+      <p className="rating-text">
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
